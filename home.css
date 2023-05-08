@@ -9,7 +9,7 @@
 
 section{
     min-height: 100vh;
-    background: url('../img/bg.jpg') no-repeat;
+    background: url('bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     /*animation: Bg 5s linear infinite;*/
