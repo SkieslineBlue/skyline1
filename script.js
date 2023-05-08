@@ -3,7 +3,6 @@ let sidebar = document.querySelector('.sidebar');
 let searchBtn = document.querySelector('.bx-search');
 let listItem = document.querySelectorAll('.list-item');
 
-@media(min-width: 1600px){
 btn.onclick = function(){
     sidebar.classList.toggle('active');
 }
@@ -20,4 +19,4 @@ function activeLink(){
 
 listItem.forEach(item =>
     item.onclick = activeLink);
-}
+
