@@ -9,10 +9,10 @@
 
 section{
     min-height: 100vh;
-    background: url("bg.jpg") no-repeat;
+    background: url('../img/bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    /*animation: Bg 5s linear infinite;*/
+    animation:  5s linear infinite;
 }
 
 @keyframes Bg {
@@ -130,7 +130,7 @@ section{
 }
 
 .sidebar ul li a:hover{
-    background: rgba(255, 255, 255, .1);
+    background: blue;
 }
 
 .sidebar ul .list-item.active a{
@@ -196,9 +196,7 @@ section{
 
 @media (max-width: 480px){
     .sidebar ul li .tooltip{
-        transform:none;
+        display: none;
     }
-
-
 }
 
