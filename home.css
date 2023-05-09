@@ -12,7 +12,7 @@ section{
     background: url("bg.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-  /*  animation: Bg 5s linear infinite;*/
+    animation: Bg 5s linear infinite;
 }
 
 @keyframes Bg {
